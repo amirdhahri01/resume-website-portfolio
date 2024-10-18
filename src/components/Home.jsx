@@ -6,7 +6,6 @@ import Experiences from "./pages/experiences/Experiences";
 import Educations from "./pages/educations/Educations";
 import Portfolios from "./pages/portfolios/Portfolios";
 import About from "./pages/about/About";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 class Home extends Component {
   render() {
