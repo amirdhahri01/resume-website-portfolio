@@ -12,7 +12,10 @@ class Navbar extends Component {
                 My Resume
               </Link>
               <Link to="/" data-target="side-nav" className="sidenav-trigger">
-                <i className="material-icons">menu</i>
+                <div className="d-flex align-items-center justify-content-center">
+                  <span className="material-symbols-outlined">menu</span>
+                  <span className="d-inline-block ms-1">menu</span>
+                </div>
               </Link>
               <ul className="right hide-on-med-and-down">
                 <li>
