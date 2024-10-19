@@ -15,10 +15,10 @@ class Home extends Component {
           <Navbar />
           <div className="container">
             <div className="row">
-              <div className="col col-sm-12 col-md-3">
+              <div className="col s12 m3">
                 <Profile />
               </div>
-              <div className="col col-sm-12 col-md-9">
+              <div className="col s12 m9">
                 <About />
                 <Skills />
                 <Experiences />
