@@ -3,7 +3,7 @@ const About = () => {
     <>
       <div className="card">
         <div className="card-content">
-          <h6 className="mt-bottom">
+          <h6 className="my-2">
             <strong className="text-uppercase">About me</strong>
           </h6>
           <p className="grey-text">
@@ -17,7 +17,7 @@ const About = () => {
           <h6>
             <strong className="text-uppercase">Personal info</strong>
           </h6>
-          <div className="row mt">
+          <div className="row mt-3">
             <div className="col s12 m6 l6 xl6">
               <p>
                 <strong>Address:</strong> 123 Lorem
