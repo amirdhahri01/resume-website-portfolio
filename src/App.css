@@ -15,6 +15,19 @@
 
 /* End of display section */
 
+/* Start of position section */
+
+.p-sticky {
+  position: sticky;
+}
+.t-0 {
+  top: 0;
+}
+.z-index-999 {
+  z-index: 999;
+}
+/* End of display section */
+
 /* Start of margin and padding section */
 
 .ml-2 {
