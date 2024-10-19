@@ -11,36 +11,43 @@ class Navbar extends Component {
               <Link to="/" className="brand-logo">
                 My Resume
               </Link>
-              <Link to="/" data-target="side-nav" className="sidenav-trigger">
-                <div className="d-flex align-items-center justify-content-center">
-                  <span className="material-symbols-outlined">menu</span>
-                  <span className="d-inline-block ms-1">menu</span>
-                </div>
+              <Link
+                to="/"
+                data-target="side-nav"
+                className="sidenav-trigger d-flex align-items-center justify-content-space-between"
+              >
+                <span className="material-symbols-outlined">menu</span>
+                <span className="ml-5">menu</span>
               </Link>
               <ul className="right hide-on-med-and-down">
                 <li>
-                  <Link to="/">
-                    <i className="fas fa-home"></i> Home
+                  <Link to="/" className="d-flex align-items-center">
+                    <i className="fas fa-home"></i>
+                    <span className="ml-5">Home</span>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/skills">
-                    <i className="fas fa-copy"></i> Skills
+                  <Link to="/skills" className="d-flex align-items-center">
+                    <i className="fas fa-copy"></i>
+                    <span className="ml-5">Skills</span>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/experiences">
-                    <i className="fas fa-id-badge"></i> Experiences
+                  <Link to="/experiences" className="d-flex align-items-center">
+                    <i className="fas fa-id-badge"></i>
+                    <span className="ml-5">Experiences</span>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/educations">
-                    <i className="fas fa-graduation-cap"></i> Educations
+                  <Link to="/educations" className="d-flex align-items-center">
+                    <i className="fas fa-graduation-cap"></i>
+                    <span className="ml-5">Educations</span>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/portfolios">
-                    <i className="fas fa-address-card"></i> Portfolios
+                  <Link to="/portfolios" className="d-flex align-items-center">
+                    <i className="fas fa-address-card"></i>
+                    <span className="ml-5">Portfolios</span>
                   </Link>
                 </li>
               </ul>
@@ -49,28 +56,33 @@ class Navbar extends Component {
         </nav>
         <ul className="sidenav" id="side-nav">
           <li>
-            <Link to="/">
-              <i className="fas fa-home"></i> Home
+            <Link to="/" className="d-flex align-items-center">
+              <i className="fas fa-home"></i>
+              <span className="ml-5">Home</span>
             </Link>
           </li>
           <li>
-            <Link to="/skills">
-              <i className="fas fa-copy"></i> Skills
+            <Link to="/skills" className="d-flex align-items-center">
+              <i className="fas fa-copy"></i>
+              <span className="ml-5">Skills</span>
             </Link>
           </li>
           <li>
-            <Link to="/experiences">
-              <i className="fas fa-id-badge"></i> Experiences
+            <Link to="/experiences" className="d-flex align-items-center">
+              <i className="fas fa-id-badge"></i>
+              <span className="ml-5">Experiences</span>
             </Link>
           </li>
           <li>
-            <Link to="/educations">
-              <i className="fas fa-graduation-cap"></i> Educations
+            <Link to="/educations" className="d-flex align-items-center">
+              <i className="fas fa-graduation-cap"></i>
+              <span className="ml-5">Educations</span>
             </Link>
           </li>
           <li>
-            <Link to="/portfolios">
-              <i className="fas fa-address-card"></i> Portfolios
+            <Link to="/portfolios" className="d-flex align-items-center">
+              <i className="fas fa-address-card"></i>
+              <span className="ml-5">Portfolios</span>
             </Link>
           </li>
         </ul>

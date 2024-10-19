@@ -3,7 +3,7 @@ const About = () => {
     <>
       <div className="card">
         <div className="card-content">
-          <h6 className="my-2">
+          <h6 className="mb-10">
             <strong className="text-uppercase">About me</strong>
           </h6>
           <p className="grey-text">
@@ -17,26 +17,26 @@ const About = () => {
           <h6>
             <strong className="text-uppercase">Personal info</strong>
           </h6>
-          <div className="row mt-3">
+          <div className="row mt-10">
             <div className="col s12 m6 l6 xl6">
-              <p>
+              <p className="my-10">
                 <strong>Address:</strong> 123 Lorem
               </p>
-              <p>
+              <p className="my-10">
                 <strong>Email:</strong> test@yahoo.com
               </p>
-              <p>
+              <p className="my-10">
                 <strong>Phone:</strong> 123 456 7898
               </p>
             </div>
             <div className="col s12 m6 l6 xl6">
-              <p>
+              <p className="my-10">
                 <strong>Main Language</strong> - English
               </p>
-              <p>
+              <p className="my-10">
                 <strong>Second Language</strong> - Spanish
               </p>
-              <p>
+              <p className="my-10">
                 <strong>Third Language</strong> - Chinese
               </p>
             </div>

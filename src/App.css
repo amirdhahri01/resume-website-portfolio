@@ -1,0 +1,64 @@
+/* Start of display section */
+
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+
+/* End of display section */
+
+/* Start of margin and padding section */
+
+.ml-2 {
+  margin-left: 2px;
+}
+.ml-3 {
+  margin-left: 3px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.mr-3 {
+  margin-right: 3px;
+}
+.mt-3 {
+  margin-top: 3px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.my-2 {
+  margin: 2px 0;
+}
+.my-3 {
+  margin: 3px 0;
+}
+.my-5 {
+  margin: 5px 0;
+}
+.my-10 {
+  margin: 10px 0;
+}
+.p-3 {
+  padding: 3px;
+}
+
+/* End of margin and padding section */
+
+/* Start of text section */
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+/* End of text section */
