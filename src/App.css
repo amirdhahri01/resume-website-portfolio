@@ -62,3 +62,8 @@
   text-transform: uppercase;
 }
 /* End of text section */
+
+.year_exp {
+  font-size: 16px;
+  font-weight: 400;
+}

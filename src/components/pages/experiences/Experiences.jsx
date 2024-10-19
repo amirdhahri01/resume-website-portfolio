@@ -6,7 +6,7 @@ const Experiences = () => {
           <h6>
             <strong className="text-uppercase">Eperience</strong>
           </h6>
-          <div className="row mt-3">
+          <div className="row">
             <div className="col s12 m6 l4 xl4">
               <p className="teal year_exp white-text">
                 Jan
@@ -15,8 +15,8 @@ const Experiences = () => {
               </p>
             </div>
             <div className="col s12 m6 l8 xl8">
-              <blockquote className="no-pad">
-                <h6 className="no-pad mt-bottom">
+              <blockquote>
+                <h6>
                   <strong className="text-uppercase">Web developer</strong>
                 </h6>
                 <p>
@@ -28,7 +28,7 @@ const Experiences = () => {
               </blockquote>
             </div>
           </div>
-          <div className="row mt-3">
+          <div className="row">
             <div className="col s12 m6 l4 xl4">
               <p className="teal year_exp white-text">
                 Jan
@@ -37,8 +37,8 @@ const Experiences = () => {
               </p>
             </div>
             <div className="col s12 m6 l8 xl8">
-              <blockquote className="no-pad">
-                <h6 className="no-pad mt-bottom">
+              <blockquote>
+                <h6>
                   <strong className="text-uppercase">Web developer</strong>
                 </h6>
                 <p>
