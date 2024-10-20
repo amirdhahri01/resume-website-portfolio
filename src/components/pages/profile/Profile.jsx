@@ -8,10 +8,10 @@ const Profile = () => {
           <img src={ImgProfile} alt="Amir Dhahri" className="activator" />
         </div>
         <div className="card-content">
-          <span className="card-title activator grey-text text-darken-4">
+          <span className="card-title grey-text text-darken-4">
             React Developer
             <Link to="/">
-              <span className="material-symbols-outlined right grey-text">
+              <span className="activator material-symbols-outlined right grey-text">
                 more_vert
               </span>
             </Link>
