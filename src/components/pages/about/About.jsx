@@ -23,21 +23,21 @@ const About = () => {
                 <strong>Address:</strong> 123 Lorem
               </p>
               <p className="my-10">
-                <strong>Email:</strong> test@yahoo.com
+                <strong>Email:</strong> amirdhahri01@gmail.com
               </p>
               <p className="my-10">
-                <strong>Phone:</strong> 123 456 7898
+                <strong>Phone:</strong> 92367697
               </p>
             </div>
             <div className="col s12 m6 l6 xl6">
               <p className="my-10">
-                <strong>Main Language</strong> - English
+                <strong>Main Language</strong> - Arabic
               </p>
               <p className="my-10">
-                <strong>Second Language</strong> - Spanish
+                <strong>Second Language</strong> - English
               </p>
               <p className="my-10">
-                <strong>Third Language</strong> - Chinese
+                <strong>Third Language</strong> - Frensh
               </p>
             </div>
           </div>
